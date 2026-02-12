@@ -46,7 +46,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 5px 25px rgba(242, 193, 176, 0.981);
     text-align: center;
-    width: 350px;
+    width: 300px;
     max-width: 100%;
     margin: auto;
 }
@@ -63,14 +63,15 @@ form input, form select, form button {
     padding: 10px;
     margin: 8px 0;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(115, 136, 240, 0.981);
+    border: 1px solid #a0a0a0;
     box-sizing: border-box;
     font-size: 14px;
 }
 
 form button {
     background-color: #320ded;
-    color: #fff;
+    color: #ffffff;
     border: none;
     cursor: pointer;
     font-size: 16px;
