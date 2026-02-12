@@ -1,20 +1,20 @@
 /* الخلفية التدريجية */
+/* الخلفية */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
 
-    /* الخلفية: صورة + تدرج تدريجي */
     background: linear-gradient(to bottom, rgba(254,247,224,0.8) 0%, rgba(254,247,224,0.8) 33%, rgba(255,255,255,0.9) 100%), 
                 url('background.jpg') no-repeat center top;
     background-size: cover;
 
-    display: ruby-base-container;
-    justify-content: right;
-    align-items: flex-start;
+    display: flex;
     flex-direction: column;
-    padding: 10px;
+    align-items: center;   /* توسيط أفقي */
+    padding: 20px 15px;
 }
+
 
 
 /* أيقونة اللغة */
@@ -25,14 +25,13 @@ body {
     margin-bottom: 10px;
 }
 
-.lang-switch button {
-    background-color: #ff6600;
-    color: #fff;
-    border: none;
-    padding: 6px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
+.lang-switch {
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* في المنتصف */
+    margin-bottom: 10px;
+}
+
 }
 
 .lang-switch button:hover {
